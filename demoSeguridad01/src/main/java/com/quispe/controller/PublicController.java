@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/public")
+@RequestMapping("/api")
 public class PublicController {
-    @GetMapping("/hello")
+    @GetMapping("/free")
     public String hello() {
         return "Endpoint público funcionando";
     }

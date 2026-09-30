@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/management")
 public class AdminController {
-    @GetMapping("/panel")
+    @GetMapping("/dashboard")
     public String panel() {
         return "Bienvenido ADMIN";
     }
